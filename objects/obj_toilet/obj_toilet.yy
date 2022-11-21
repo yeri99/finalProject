@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_toilet",
   "spriteId": {
     "name": "spr_toilet",
     "path": "sprites/spr_toilet/spr_toilet.yy",
@@ -31,4 +28,8 @@
     "name": "ToiletObjects",
     "path": "folders/Objects/ToiletObjects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_toilet",
+  "tags": [],
+  "resourceType": "GMObject",
 }

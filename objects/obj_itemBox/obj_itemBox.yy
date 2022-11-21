@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_itemBox",
   "spriteId": {
     "name": "spr_itemBox",
     "path": "sprites/spr_itemBox/spr_itemBox.yy",
@@ -31,4 +28,8 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_itemBox",
+  "tags": [],
+  "resourceType": "GMObject",
 }

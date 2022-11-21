@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_toiletEvent",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -22,7 +19,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,4 +27,8 @@
     "name": "ToiletObjects",
     "path": "folders/Objects/ToiletObjects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_toiletEvent",
+  "tags": [],
+  "resourceType": "GMObject",
 }

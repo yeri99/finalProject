@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_outBG",
   "spriteId": {
     "name": "spr_outBG",
     "path": "sprites/spr_outBG/spr_outBG.yy",
@@ -31,4 +28,8 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_outBG",
+  "tags": [],
+  "resourceType": "GMObject",
 }

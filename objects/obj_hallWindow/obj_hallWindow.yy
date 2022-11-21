@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_hallWindow",
   "spriteId": {
     "name": "spr_hallWindow",
     "path": "sprites/spr_hallWindow/spr_hallWindow.yy",
@@ -31,4 +28,8 @@
     "name": "HallObjects",
     "path": "folders/Objects/HallObjects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_hallWindow",
+  "tags": [],
+  "resourceType": "GMObject",
 }

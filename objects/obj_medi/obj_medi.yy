@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_medi",
   "spriteId": {
     "name": "spr_medi",
     "path": "sprites/spr_medi/spr_medi.yy",
@@ -31,4 +28,8 @@
     "name": "MediObjects",
     "path": "folders/Objects/MediObjects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_medi",
+  "tags": [],
+  "resourceType": "GMObject",
 }

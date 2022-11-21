@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_handstand",
   "spriteId": {
     "name": "spr_handstand",
     "path": "sprites/spr_handstand/spr_handstand.yy",
@@ -31,4 +28,8 @@
     "name": "ToiletObjects",
     "path": "folders/Objects/ToiletObjects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_handstand",
+  "tags": [],
+  "resourceType": "GMObject",
 }
