@@ -68,6 +68,6 @@
   "nineSlice": null,
   "parent": {
     "name": "art_room",
-    "path": "folders/Sprites/art_room.yy",
+    "path": "folders/Sprites/",
   },
 }
