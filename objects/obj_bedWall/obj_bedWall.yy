@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_bedWall",
   "spriteId": {
     "name": "spr_bedWall",
     "path": "sprites/spr_bedWall/spr_bedWall.yy",
@@ -31,4 +28,8 @@
     "name": "MediObjects",
     "path": "folders/Objects/MediObjects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_bedWall",
+  "tags": [],
+  "resourceType": "GMObject",
 }

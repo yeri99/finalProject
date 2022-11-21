@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_window",
   "spriteId": {
     "name": "spr_window",
     "path": "sprites/spr_window/spr_window.yy",
@@ -31,4 +28,8 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_window",
+  "tags": [],
+  "resourceType": "GMObject",
 }

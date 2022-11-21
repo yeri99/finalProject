@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_wallMiddle",
   "spriteId": {
     "name": "spr_wallMiddle",
     "path": "sprites/spr_wallMiddle/spr_wallMiddle.yy",
@@ -31,4 +28,8 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_wallMiddle",
+  "tags": [],
+  "resourceType": "GMObject",
 }

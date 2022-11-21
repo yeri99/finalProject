@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_twinkle",
   "spriteId": {
     "name": "spr_twinkle",
     "path": "sprites/spr_twinkle/spr_twinkle.yy",
@@ -31,4 +28,8 @@
     "name": "TeacherObjects",
     "path": "folders/Objects/TeacherObjects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_twinkle",
+  "tags": [],
+  "resourceType": "GMObject",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_cabinet",
   "spriteId": {
     "name": "spr_cabinet",
     "path": "sprites/spr_cabinet/spr_cabinet.yy",
@@ -31,4 +28,8 @@
     "name": "TeacherObjects",
     "path": "folders/Objects/TeacherObjects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_cabinet",
+  "tags": [],
+  "resourceType": "GMObject",
 }

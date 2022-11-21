@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_wallCorner",
   "spriteId": {
     "name": "spr_wallCorner",
     "path": "sprites/spr_wallCorner/spr_wallCorner.yy",
@@ -31,4 +28,8 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_wallCorner",
+  "tags": [],
+  "resourceType": "GMObject",
 }

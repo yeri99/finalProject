@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_shoeCloset",
   "spriteId": {
     "name": "spr_shoeCloset",
     "path": "sprites/spr_shoeCloset/spr_shoeCloset.yy",
@@ -31,4 +28,8 @@
     "name": "HallObjects",
     "path": "folders/Objects/HallObjects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_shoeCloset",
+  "tags": [],
+  "resourceType": "GMObject",
 }

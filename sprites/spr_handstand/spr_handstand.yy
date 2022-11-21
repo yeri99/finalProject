@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_handstand",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -27,13 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c9d2cea8-bb9c-4c6f-b8a2-58882b133d7d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bf5e3152-4bc7-47fb-a898-d8b13a953c4e",},
+    {"compositeImage":{"FrameId":{"name":"c9d2cea8-bb9c-4c6f-b8a2-58882b133d7d","path":"sprites/spr_handstand/spr_handstand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c9d2cea8-bb9c-4c6f-b8a2-58882b133d7d","path":"sprites/spr_handstand/spr_handstand.yy",},"LayerId":{"name":"bb50f94f-cc2c-43ef-8216-938ca0d83ae9","path":"sprites/spr_handstand/spr_handstand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_handstand","path":"sprites/spr_handstand/spr_handstand.yy",},"resourceVersion":"1.0","name":"c9d2cea8-bb9c-4c6f-b8a2-58882b133d7d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bf5e3152-4bc7-47fb-a898-d8b13a953c4e","path":"sprites/spr_handstand/spr_handstand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bf5e3152-4bc7-47fb-a898-d8b13a953c4e","path":"sprites/spr_handstand/spr_handstand.yy",},"LayerId":{"name":"bb50f94f-cc2c-43ef-8216-938ca0d83ae9","path":"sprites/spr_handstand/spr_handstand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_handstand","path":"sprites/spr_handstand/spr_handstand.yy",},"resourceVersion":"1.0","name":"bf5e3152-4bc7-47fb-a898-d8b13a953c4e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_handstand",
+    "spriteId": {"name":"spr_handstand","path":"sprites/spr_handstand/spr_handstand.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -41,13 +40,13 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 2.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"524a5037-856c-4946-986b-c5304b42b83e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c9d2cea8-bb9c-4c6f-b8a2-58882b133d7d","path":"sprites/spr_handstand/spr_handstand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"a4dd11c6-4420-4a6d-91f5-11549f910942","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bf5e3152-4bc7-47fb-a898-d8b13a953c4e","path":"sprites/spr_handstand/spr_handstand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"524a5037-856c-4946-986b-c5304b42b83e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c9d2cea8-bb9c-4c6f-b8a2-58882b133d7d","path":"sprites/spr_handstand/spr_handstand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"a4dd11c6-4420-4a6d-91f5-11549f910942","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bf5e3152-4bc7-47fb-a898-d8b13a953c4e","path":"sprites/spr_handstand/spr_handstand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -63,13 +62,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_handstand","path":"sprites/spr_handstand/spr_handstand.yy",},
+    "resourceVersion": "1.4",
+    "name": "spr_handstand",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bb50f94f-cc2c-43ef-8216-938ca0d83ae9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bb50f94f-cc2c-43ef-8216-938ca0d83ae9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_handstand",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

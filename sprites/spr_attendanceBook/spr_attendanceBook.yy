@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_attendanceBook",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -27,15 +24,21 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2f45bc0c-b271-43db-8552-f3733e4b2451",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"88a7a023-769b-49e2-9a68-c660bd597d0c",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b0c68e51-6613-4647-9bc7-0d817077dfcf",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fcc14b27-1699-4904-a222-5dcabe862314",},
+    {"compositeImage":{"FrameId":{"name":"2f45bc0c-b271-43db-8552-f3733e4b2451","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2f45bc0c-b271-43db-8552-f3733e4b2451","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"LayerId":{"name":"669a4ecf-95a4-44d3-84ad-6971165fd096","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_attendanceBook","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","name":"2f45bc0c-b271-43db-8552-f3733e4b2451","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"88a7a023-769b-49e2-9a68-c660bd597d0c","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"88a7a023-769b-49e2-9a68-c660bd597d0c","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"LayerId":{"name":"669a4ecf-95a4-44d3-84ad-6971165fd096","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_attendanceBook","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","name":"88a7a023-769b-49e2-9a68-c660bd597d0c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b0c68e51-6613-4647-9bc7-0d817077dfcf","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b0c68e51-6613-4647-9bc7-0d817077dfcf","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"LayerId":{"name":"669a4ecf-95a4-44d3-84ad-6971165fd096","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_attendanceBook","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","name":"b0c68e51-6613-4647-9bc7-0d817077dfcf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fcc14b27-1699-4904-a222-5dcabe862314","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fcc14b27-1699-4904-a222-5dcabe862314","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"LayerId":{"name":"669a4ecf-95a4-44d3-84ad-6971165fd096","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_attendanceBook","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","name":"fcc14b27-1699-4904-a222-5dcabe862314","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_attendanceBook",
+    "spriteId": {"name":"spr_attendanceBook","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 3.0,
@@ -43,15 +46,15 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 4.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"60ef57fb-99f4-46d4-8d99-7b1b63917649","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f45bc0c-b271-43db-8552-f3733e4b2451","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"ef921141-6d10-4903-a4a7-d1c77866aaac","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"88a7a023-769b-49e2-9a68-c660bd597d0c","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"bb4292e7-c4e5-4913-b930-ae98b1c6fda8","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b0c68e51-6613-4647-9bc7-0d817077dfcf","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"2bc558aa-9411-44a4-94b8-0498f65d8b54","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fcc14b27-1699-4904-a222-5dcabe862314","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"60ef57fb-99f4-46d4-8d99-7b1b63917649","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f45bc0c-b271-43db-8552-f3733e4b2451","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"ef921141-6d10-4903-a4a7-d1c77866aaac","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"88a7a023-769b-49e2-9a68-c660bd597d0c","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"bb4292e7-c4e5-4913-b930-ae98b1c6fda8","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b0c68e51-6613-4647-9bc7-0d817077dfcf","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"2bc558aa-9411-44a4-94b8-0498f65d8b54","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fcc14b27-1699-4904-a222-5dcabe862314","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -67,13 +70,22 @@
     "yorigin": 128,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_attendanceBook","path":"sprites/spr_attendanceBook/spr_attendanceBook.yy",},
+    "resourceVersion": "1.4",
+    "name": "spr_attendanceBook",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"669a4ecf-95a4-44d3-84ad-6971165fd096","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"669a4ecf-95a4-44d3-84ad-6971165fd096","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_attendanceBook",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

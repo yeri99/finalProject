@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_desk",
   "spriteId": {
     "name": "spr_desk",
     "path": "sprites/spr_desk/spr_desk.yy",
@@ -31,4 +28,8 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_desk",
+  "tags": [],
+  "resourceType": "GMObject",
 }
