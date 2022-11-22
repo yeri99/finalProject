@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_art_chair",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -68,6 +65,10 @@
   "nineSlice": null,
   "parent": {
     "name": "art_room",
-    "path": "folders/Sprites/",
+    "path": "folders/Sprites/spr_art_chair.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_art_chair",
+  "tags": [],
+  "resourceType": "GMSprite",
 }
