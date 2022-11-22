@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_autumn_frame",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -72,4 +69,8 @@
     "name": "art_room",
     "path": "folders/Sprites/art_room.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_autumn_frame",
+  "tags": [],
+  "resourceType": "GMSprite",
 }
