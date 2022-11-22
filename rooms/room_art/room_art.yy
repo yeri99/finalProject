@@ -1,5 +1,5 @@
 {
-    "isDnd": false,
+   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
   "views": [
