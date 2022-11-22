@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_art_scriptBox",
   "spriteId": {
     "name": "spr_scriptBox",
     "path": "sprites/spr_scriptBox/spr_scriptBox.yy",
@@ -35,4 +32,8 @@
     "name": "art_room",
     "path": "folders/Objects/art_room.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_art_scriptBox",
+  "tags": [],
+  "resourceType": "GMObject",
 }
