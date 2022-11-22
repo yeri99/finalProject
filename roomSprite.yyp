@@ -208,6 +208,7 @@
     {"folderPath":"folders/Objects/ToiletObjects.yy","order":33,"resourceVersion":"1.0","name":"ToiletObjects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Class.yy","order":34,"resourceVersion":"1.0","name":"Class","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Class.yy","order":35,"resourceVersion":"1.0","name":"Class","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/art_room.yy","order":34,"resourceVersion":"1.0","name":"art_room","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/art_room.yy","order":35,"resourceVersion":"1.0","name":"art_room","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Science.yy","order":35,"resourceVersion":"1.0","name":"Science","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Science.yy","order":36,"resourceVersion":"1.0","name":"Science","tags":[],"resourceType":"GMFolder",},
