@@ -177,7 +177,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"room_start","path":"rooms/room_start/room_start.yy",},},
-    {"roomId":{"name":"room_art","path":"rooms/room_art/room_art.yy",},},
     {"roomId":{"name":"room_bathroom","path":"rooms/room_bathroom/room_bathroom.yy",},},
     {"roomId":{"name":"room_teacher","path":"rooms/room_teacher/room_teacher.yy",},},
     {"roomId":{"name":"room_hallway","path":"rooms/room_hallway/room_hallway.yy",},},
