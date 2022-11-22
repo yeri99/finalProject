@@ -64,8 +64,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "art_room",
-    "path": "folders/Sprites/art_room.yy",
+    "name": "roomSprite",
+    "path": "roomSprite.yyp",
   },
   "resourceVersion": "1.0",
   "name": "spr_autumn_picture",
