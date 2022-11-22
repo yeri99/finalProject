@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "art_room",
-    "path": ""folders/Sprites/spr_blood.yy"",
+    "path": "folders/Sprites/spr_blood.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_blood",
