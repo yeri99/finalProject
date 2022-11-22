@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_autumn_frame","path":"sprites/spr_autumn_frame/spr_autumn_frame.yy",},"order":5,},
+    {"id":{"name":"obj_art_scriptBox","path":"objects/obj_art_scriptBox/obj_art_scriptBox.yy",},"order":10,},
     {"id":{"name":"room_hallway","path":"rooms/room_hallway/room_hallway.yy",},"order":5,},
     {"id":{"name":"spr_pamflet","path":"sprites/spr_pamflet/spr_pamflet.yy",},"order":14,},
     {"id":{"name":"obj_pamflet","path":"objects/obj_pamflet/obj_pamflet.yy",},"order":2,},
