@@ -1,5 +1,5 @@
 {
-   "isDnd": false,
+  "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
   "views": [
@@ -613,7 +613,8 @@
     "name": "Rooms",
     "path": "folders/Rooms.yy",
   },
-  "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "room_art",
+  "tags": [],
+  "resourceType": "GMRoom",
 }
