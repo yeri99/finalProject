@@ -69,7 +69,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "art_room",
+    "name": "Art",
     "path": "folders/Sprites/spr_blood.yy",
   },
   "resourceVersion": "1.0",
