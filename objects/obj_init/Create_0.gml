@@ -3,6 +3,11 @@
 
 global.itemNum = 0
 global.canMove = true
+global.isSpaceCheck = 0
+
+//art
+global.IsAutumn = false
+global.IsAutumnFrame = false
 
 // medical
 global.IsApprox1 = false
@@ -12,4 +17,4 @@ global.IsSscissor = false
 global.IsBandage = false
 global.IsMediGame = false
 
-room_goto(room_medical)
+room_goto(room_art)

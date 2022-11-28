@@ -7,10 +7,20 @@ if(obj_springEvent.isPress == true)
 	draw_text(100,600,textSpring)
 else if(obj_summerEvent.isPress == true)
 	draw_text(100,600,textSummer)
-else if(obj_autumnFrameEvent.isPress == true)
+else if(obj_autumnFrameEvent.isPress == true){
+	if(obj_artEvent.isGameSuccess){
+	draw_text(100,600,textNextAutumn)
+	}
+	else{
 	draw_text(100,600,textAutumnFrame)
-else if(obj_autumnEvent.isPress == true)
-	draw_text(100,600,textAutumn)
+	instance_create_depth(room_width/2,room_height/2 - 100,depth, obj_autumnGame)
+	}
+	
+}
+if(instance_exists(obj_autumnEvent)){
+	if(obj_autumnEvent.isPress == true)
+		draw_text(100,600,textAutumn)
+}
 else if(obj_winterEvent.isPress == true)
 	draw_text(100,600,textWinter)
 else if(obj_davidEvent.isPress == true)

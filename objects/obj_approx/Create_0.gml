@@ -8,3 +8,5 @@ if(global.IsApprox1 == true){
 }
 
 isPress = false
+x_ = x
+y_ = y

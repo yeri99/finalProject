@@ -31,6 +31,7 @@ if(global.IsSscissor == true){
 	global.IsSscissor = false
 }
 if(global.IsBandage == true){
+	instance_create_depth(obj_bandageEvent.x, obj_bandageEvent.y, depth, obj_mediCabinetEvent)
 	instance_destroy(obj_bandageEvent)
 	
 	instance_create_depth((room_width/2 -288)+global.itemNum*64, room_height - 32, 0, obj_bandage)
@@ -40,6 +41,7 @@ if(global.IsBandage == true){
 
 if(global.IsMediGame == true){
 	if(!instance_exists(obj_artKey)){
+		global.itemNum = global.itemNum - 4
 		instance_create_depth((room_width/2 -288)+global.itemNum*64, room_height - 32, 0, obj_artKey)
 		global.itemNum++
 	}

@@ -13,7 +13,13 @@ if(place_meeting(x, y, obj_mediGame)){
 	image_yscale = 2
 }
 
-
+if(!instance_exists(obj_mediGame)){
+	x = x_
+	y = y_
+	image_xscale = 0.8
+	image_yscale = 0.8
+}
+else{
 if(instance_position(room_width/2,room_height/2,obj_approx2) ){
 	x = room_width/2
 	y = room_height/2
@@ -42,3 +48,4 @@ else if(instance_position(room_width/2,room_height/2 + 133,obj_approx2)){
 	y = room_height/2 + 133
 }
 
+}

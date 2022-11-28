@@ -8,3 +8,5 @@ if(global.IsSscissor == true){
 }
 
 isPress = false
+x_ = x
+y_ = y

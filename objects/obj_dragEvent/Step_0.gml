@@ -2,4 +2,7 @@
 // 이 에디터에 코드를 작성할 수 있습니다
 
 
-image_speed = 0;
+if(isPress == true){
+	x = mouse_x
+	y = mouse_y
+}

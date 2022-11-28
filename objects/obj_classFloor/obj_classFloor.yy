@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_classFloor",
   "spriteId": {
     "name": "spr_classFloor",
     "path": "sprites/spr_classFloor/spr_classFloor.yy",
@@ -28,8 +31,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_classFloor",
-  "tags": [],
-  "resourceType": "GMObject",
 }

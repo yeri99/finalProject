@@ -3,3 +3,13 @@
 
 
 
+if(keyboard_check_pressed(vk_space)){
+	if(global.IsText == false and isPress == false){
+		global.IsText = true
+		isPress = true
+		instance_create_depth(683, 640, -1, obj_art_scriptBox)
+	}
+	else{
+		isPress = false
+	}
+}

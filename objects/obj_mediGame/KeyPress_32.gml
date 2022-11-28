@@ -19,7 +19,6 @@ if(instance_exists(obj_mediGame)){
 			instance_create_depth(obj_mediGameEvent.x, obj_mediGameEvent.y, depth, obj_mediCabinetEvent)
 
 			instance_destroy(obj_mediGameEvent)
-			global.itemNum = global.itemNum - 4
 			obj_mediGame.image_index = 1
 			isPress = false
 			isKey = true

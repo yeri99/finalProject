@@ -8,3 +8,5 @@ if(global.IsBandage == true){
 }
 
 isPress = false
+x_ = x
+y_ = y
