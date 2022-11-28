@@ -5,3 +5,4 @@
 
 
 isPress = false
+isCheck = false

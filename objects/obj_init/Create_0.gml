@@ -8,6 +8,7 @@ global.isSpaceCheck = 0
 //art
 global.IsAutumn = false
 global.IsAutumnFrame = false
+global.IsGame = false
 
 // medical
 global.IsApprox1 = false

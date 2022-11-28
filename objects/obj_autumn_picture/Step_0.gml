@@ -14,9 +14,11 @@ if(place_meeting(x,y,obj_autumnGame)){
 
 if(instance_exists(obj_autumnGame)){
 	if(position_meeting(room_width/2,room_height/2 - 100,obj_autumn_picture)){
-	obj_autumnGame.image_index = 1
-	global.itemNum--
-	instance_destroy(self)
-	obj_artEvent.isGameSuccess = true
+		obj_autumnGame.image_index = 1
+		global.itemNum--
+		instance_destroy(self)
+		global.IsGame = true
+		obj_artEvent.isGameSuccess = true
+		instance_create_depth(683, 640, -1, obj_art_scriptBox)
 	}
 }

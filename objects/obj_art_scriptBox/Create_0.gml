@@ -11,5 +11,11 @@ textStatue = "졍교하게 잘 깎아놓은 조각상이다. 왜인지 조금 �
 textScienceItem = "구멍이 뚫린 셀로판지다. 어딘가에 쓰일 거 같으니 챙겨두자."
 textEasel = "아무것도 그려져 있지 않아."
 textBlood = "뭐지? 물감치고는 너무 새빨간 거 같은데.."
+textSuccess = "\n[툭] 어? 액자 아래에 뭔가 떨어졌어."
+
+textSpringMusic = "[비발디 사계(봄)] 사계 중 봄의 악보다. 일단 챙겨두자.."
+textSummerMusic = "[비발디 사계(여름)] 사계 중 여름의 악보다. 일단 챙겨두자.."
+textAutumnMusic = "[비발디 사계(가을)] 사계 중 가을의 악보다. 일단 챙겨두자.."
+textWintergMusic = "[비발디 사계(겨울)] 사계 중 겨울의 악보다. 일단 챙겨두자.."
 
 global.canMove = false

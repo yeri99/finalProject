@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "art_room",
-    "path": "folders/Objects/art_room.yy",
+    "name": "scriptBox",
+    "path": "folders/Objects/art_room/scriptBox.yy",
   },
 }

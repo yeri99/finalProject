@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "art_room",
-    "path": "folders/Objects/art_room.yy",
+    "name": "Event",
+    "path": "folders/Objects/art_room/Event.yy",
   },
 }

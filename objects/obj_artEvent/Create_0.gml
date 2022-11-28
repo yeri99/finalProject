@@ -4,4 +4,7 @@
 global.IsText = false
 
 isGameSuccess = false
-isAutumnEventCheck = false
+isAutumnEventFirst = false
+
+isMusic = 0
+
