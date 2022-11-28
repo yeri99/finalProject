@@ -4,3 +4,4 @@
 global.IsText = false
 
 isGameSuccess = false
+isAutumnEventCheck = false
