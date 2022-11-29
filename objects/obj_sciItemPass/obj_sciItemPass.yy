@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_winterMusicEvent",
+  "name": "obj_sciItemPass",
   "spriteId": {
-    "name": "spr_collision",
-    "path": "sprites/spr_collision/spr_collision.yy",
+    "name": "spr_sciItemPass",
+    "path": "sprites/spr_sciItemPass/spr_sciItemPass.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,11 +24,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Event",
-    "path": "folders/Objects/art_room/Event.yy",
+    "name": "art_room",
+    "path": "folders/Objects/art_room.yy",
   },
 }

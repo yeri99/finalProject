@@ -2,7 +2,7 @@
 // 이 에디터에 코드를 작성할 수 있습니다
 
 
-if(obj_medicalEvent.isMediGame == false){
+if(!obj_medicalEvent.isMediGame){
 if(keyboard_check_pressed(vk_space)){
 	if(global.IsText == false && isPress == false && global.IsMediGame == false){
 		global.IsText = true

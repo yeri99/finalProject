@@ -4,6 +4,9 @@
 
 if(keyboard_check_pressed(vk_space)){
 	global.isSpaceCheck++
+	//show_message(global.isSpaceCheck)
+	if(global.isSpaceCheck == 2 && obj_artEvent.isGameSuccess)
+		global.isSpaceCheck--
 	if(obj_artEvent.isGameSuccess == false)
 		global.canMove = false
 	// empty Frame
@@ -22,6 +25,7 @@ if(keyboard_check_pressed(vk_space)){
 		global.canMove = true
 		global.isSpaceCheck = 0
 	}
+		
 	else{
 		isPress = false
 		isCheck = false

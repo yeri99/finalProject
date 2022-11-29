@@ -8,3 +8,10 @@ isAutumnEventFirst = false
 
 isMusic = 0
 
+isSpringMusic = false
+isSummerMusic = false
+isAutumnMusic = false
+isWinterMusic = false
+
+isEasel = false
+isBlood = false

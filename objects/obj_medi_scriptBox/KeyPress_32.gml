@@ -33,6 +33,7 @@ if(global.IsSscissor == true){
 if(global.IsBandage == true){
 	instance_create_depth(obj_bandageEvent.x, obj_bandageEvent.y, depth, obj_mediCabinetEvent)
 	instance_destroy(obj_bandageEvent)
+	instance_destroy(obj_bandage)
 	
 	instance_create_depth((room_width/2 -288)+global.itemNum*64, room_height - 32, 0, obj_bandage)
 	global.itemNum++

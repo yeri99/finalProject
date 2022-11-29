@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_summerMusicEvent",
+  "name": "obj_sciItemPassEvent",
   "spriteId": {
     "name": "spr_collision",
     "path": "sprites/spr_collision/spr_collision.yy",
@@ -11,10 +11,7 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_springMusicEvent",
-    "path": "objects/obj_springMusicEvent/obj_springMusicEvent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,7 +24,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_user","path":"objects/obj_user/obj_user.yy",},},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

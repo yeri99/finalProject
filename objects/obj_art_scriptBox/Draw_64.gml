@@ -16,11 +16,15 @@ else if(global.IsAutumn){
 else if(obj_winterEvent.isPress == true)
 	draw_text(100,600,textWinter)
 else if(obj_davidEvent.isPress == true)
-	draw_text(100,600,textStatue)
-else if(obj_bloodEvent.isPress == true)
-	draw_text(100,600,textBlood)
+	draw_text(100,600,textStatue)	
 else if(obj_easelEvent.isPress == true){
 	draw_text(100,600,textEasel)
+}
+else if(obj_artEvent.isEasel){
+	draw_text(100,600,textEasel)
+}
+else if(obj_artEvent.isBlood){
+	draw_text(100,600,textBlood)
 }
 else if(instance_exists(obj_autumnFrameEvent) && !obj_artEvent.isGameSuccess && obj_autumnFrameEvent.isPress){
 	draw_text(100,600,textAutumnFrame)
@@ -29,42 +33,38 @@ else if(instance_exists(obj_autumnFrameEvent) && !obj_artEvent.isGameSuccess && 
 else if(instance_exists(obj_autumnFrameEvent) && obj_artEvent.isGameSuccess && global.IsGame){
 	draw_text(100,600,textSuccess)
 	if(global.IsGame){
-		instance_create_depth(obj_spring_frame.x,obj_spring_frame.y + 130, depth, obj_springMusic)
-		instance_create_depth(obj_spring_frame.x,obj_spring_frame.y + 130, depth, obj_musicEvent)
-		instance_create_depth(obj_springMusic.x,obj_springMusic.y, depth, obj_springMusicEvent)
-		instance_create_depth(obj_spring_frame.x + 198,obj_spring_frame.y + 130, depth, obj_summerMusic)
-		instance_create_depth(obj_summerMusic.x,obj_summerMusic.y, depth, obj_summerMusicEvent)
-		instance_create_depth(obj_spring_frame.x + 198*2,obj_spring_frame.y + 130, depth, obj_autumnMusic)
-		instance_create_depth(obj_autumnMusic.x,obj_autumnMusic.y, depth, obj_autumnMusicEvent)
-		instance_create_depth(obj_spring_frame.x + 198*3,obj_spring_frame.y + 130, depth, obj_winterMusic)
-		instance_create_depth(obj_winterMusic.x,obj_winterMusic.y, depth, obj_winterMusicEvent)
+		instance_create_depth(obj_spring_frame.x - 100,obj_spring_frame.y + 130, obj_wallBottom.depth - 1, obj_springMusic)
+		instance_create_depth(obj_spring_frame.x - 100,obj_spring_frame.y + 130, obj_wallBottom.depth - 1, obj_musicEvent)
+		instance_create_depth(obj_spring_frame.x - 100 + 198,obj_spring_frame.y + 130, obj_wallBottom.depth - 1, obj_summerMusic)
+		instance_create_depth(obj_spring_frame.x - 100 + 198*2,obj_spring_frame.y + 130, obj_wallBottom.depth - 1, obj_autumnMusic)
+		instance_create_depth(obj_spring_frame.x - 100 + 198*3,obj_spring_frame.y + 130, obj_wallBottom.depth - 1, obj_winterMusic)
 	}
 }
-else if(instance_exists(obj_autumnFrameEvent) && obj_artEvent.isGameSuccess && obj_autumnFrameEvent.isCheck && !global.IsGame){
+
+else if(instance_exists(obj_autumnFrameEvent) && obj_artEvent.isGameSuccess && !global.IsGame && obj_autumnFrameEvent.isPress){
 	draw_text(100,600,textNextAutumn)
 }
 
-else if(instance_exists(obj_musicEvent)){
-	if(obj_springMusicEvent.isPress == true){
-		obj_artEvent.isMusic = 1
-		draw_text(100,600,textSpringMusic)
-	}
+else if(instance_exists(obj_springMusic) && obj_artEvent.isSpringMusic){
+	obj_artEvent.isMusic = 1
+	draw_text(100,600,textSpringMusic)
+}
+else if(instance_exists(obj_summerMusic) &&  obj_artEvent.isSummerMusic){
+	obj_artEvent.isMusic = 2
+	draw_text(100,600,textSummerMusic)
+}
+else if(instance_exists(obj_autumnMusic) &&  obj_artEvent.isAutumnMusic){
+	obj_artEvent.isMusic = 3
+	draw_text(100,600,textAutumnMusic)
+}
+else if(instance_exists(obj_winterMusic) &&  obj_artEvent.isWinterMusic){
+	obj_artEvent.isMusic = 4
+	draw_text(100,600,textWintergMusic)
+}
+else if(instance_exists(obj_twinkle) && instance_exists(obj_sciItemPassEvent) && obj_sciItemPassEvent.isPress){
+	draw_text(100,600,textScienceItem)
+	global.isSeconds = true
+	instance_create_depth(room_width/2, room_height/2,depth, obj_sciItemPass)
 	
-	else if(obj_summerMusicEvent.isPress == true){
-		obj_artEvent.isMusic = 2
-		draw_text(100,600,textSummerMusic)
-	}
-	else if(obj_autumnMusicEvent.isPress == true){
-		obj_artEvent.isMusic = 3
-		draw_text(100,600,textAutumnMusic)
-	}
-	else if(obj_winterMusicEvent.isPress == true){
-		obj_artEvent.isMusic = 4
-		draw_text(100,600,textWintergMusic)
-	}
 }
 
-
-else{
-	draw_text(100,600,textEasel)
-}

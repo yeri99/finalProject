@@ -3,14 +3,14 @@
 
 
 
+
 if(keyboard_check_pressed(vk_space)){
-	if(global.IsText == false && isPress == false){
+	global.isSpaceCheck++
+	if(global.IsText == false && isPress == false && global.isSpaceCheck == 1){
 		global.IsText = true
 		isPress = true
-		obj_artEvent.isBlood = true
+		obj_artEvent.isSummerMusic = true
 		instance_create_depth(683, 640, -1, obj_art_scriptBox)
-	}
-	else{
-		isPress = false
+	
 	}
 }

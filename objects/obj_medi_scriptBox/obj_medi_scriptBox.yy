@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MediObjects",
-    "path": "folders/Objects/MediObjects.yy",
+    "name": "scriptBox",
+    "path": "folders/Objects/MediObjects/scriptBox.yy",
   },
 }

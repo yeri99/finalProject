@@ -27,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MediObjects",
-    "path": "folders/Objects/MediObjects.yy",
+    "name": "Event",
+    "path": "folders/Objects/MediObjects/Event.yy",
   },
 }
