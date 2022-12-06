@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_Back",
   "spriteId": {
     "name": "spr_class_box",
     "path": "sprites/spr_class_box/spr_class_box.yy",
@@ -28,8 +31,4 @@
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_Back",
-  "tags": [],
-  "resourceType": "GMObject",
 }

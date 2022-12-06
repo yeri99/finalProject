@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_FrontDesk",
   "spriteId": {
     "name": "spr_class_eat",
     "path": "sprites/spr_class_eat/spr_class_eat.yy",
@@ -28,8 +31,4 @@
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_FrontDesk",
-  "tags": [],
-  "resourceType": "GMObject",
 }

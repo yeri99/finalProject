@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_window",
   "spriteId": {
     "name": "spr_class_window",
     "path": "sprites/spr_class_window/spr_class_window.yy",
@@ -28,8 +31,4 @@
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_window",
-  "tags": [],
-  "resourceType": "GMObject",
 }

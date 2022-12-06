@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_Board",
   "spriteId": {
     "name": "spr_board2",
     "path": "sprites/spr_board2/spr_board2.yy",
@@ -28,8 +31,4 @@
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_Board",
-  "tags": [],
-  "resourceType": "GMObject",
 }

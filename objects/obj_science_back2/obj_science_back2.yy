@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_science_back2",
   "spriteId": {
     "name": "spr_science_back2",
     "path": "sprites/spr_science_back2/spr_science_back2.yy",
@@ -28,8 +31,4 @@
     "name": "Science",
     "path": "folders/Objects/Science.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_science_back2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

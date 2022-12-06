@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_Book2",
   "spriteId": {
     "name": "spr_class_Book",
     "path": "sprites/spr_class_Book/spr_class_Book.yy",
@@ -28,8 +31,4 @@
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_Book2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_pamflet",
   "spriteId": {
     "name": "spr_pamflet",
     "path": "sprites/spr_pamflet/spr_pamflet.yy",
@@ -28,8 +31,4 @@
     "name": "TeacherObjects",
     "path": "folders/Objects/TeacherObjects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_pamflet",
-  "tags": [],
-  "resourceType": "GMObject",
 }

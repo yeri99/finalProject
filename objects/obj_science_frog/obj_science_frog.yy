@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_science_frog",
   "spriteId": {
     "name": "spr_science_frog",
     "path": "sprites/spr_science_frog/spr_science_frog.yy",
@@ -28,8 +31,4 @@
     "name": "Science",
     "path": "folders/Objects/Science.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_science_frog",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_science_graph",
   "spriteId": {
     "name": "spr_science_graph",
     "path": "sprites/spr_science_graph/spr_science_graph.yy",
@@ -28,8 +31,4 @@
     "name": "puzzle",
     "path": "folders/Objects/Science/puzzle.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_science_graph",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_tile",
   "spriteId": {
     "name": "spr_class_Floor",
     "path": "sprites/spr_class_Floor/spr_class_Floor.yy",
@@ -28,8 +31,4 @@
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_tile",
-  "tags": [],
-  "resourceType": "GMObject",
 }

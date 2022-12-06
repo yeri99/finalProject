@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_science_computer_password_draw",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 128,
   "height": 41,
   "textureGroupId": {
@@ -24,24 +28,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b34a465e-d1dd-4201-81cb-ca90751ed6cd","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b34a465e-d1dd-4201-81cb-ca90751ed6cd","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"LayerId":{"name":"bde4bf54-ff95-47ef-b43f-1e2575b21f84","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_science_computer_password_draw","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","name":"b34a465e-d1dd-4201-81cb-ca90751ed6cd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6a985d98-0c40-4d8b-beeb-5f6989c68330","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6a985d98-0c40-4d8b-beeb-5f6989c68330","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"LayerId":{"name":"bde4bf54-ff95-47ef-b43f-1e2575b21f84","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_science_computer_password_draw","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","name":"6a985d98-0c40-4d8b-beeb-5f6989c68330","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c1f0ce5b-b822-41dd-94e2-11ec1fd050a0","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c1f0ce5b-b822-41dd-94e2-11ec1fd050a0","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"LayerId":{"name":"bde4bf54-ff95-47ef-b43f-1e2575b21f84","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_science_computer_password_draw","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","name":"c1f0ce5b-b822-41dd-94e2-11ec1fd050a0","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ef800652-6289-450c-93da-ec40d1b06a68","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ef800652-6289-450c-93da-ec40d1b06a68","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"LayerId":{"name":"bde4bf54-ff95-47ef-b43f-1e2575b21f84","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_science_computer_password_draw","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","name":"ef800652-6289-450c-93da-ec40d1b06a68","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"602b7020-a39e-449f-84db-fd54c4028b47","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"602b7020-a39e-449f-84db-fd54c4028b47","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"LayerId":{"name":"bde4bf54-ff95-47ef-b43f-1e2575b21f84","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_science_computer_password_draw","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","name":"602b7020-a39e-449f-84db-fd54c4028b47","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b34a465e-d1dd-4201-81cb-ca90751ed6cd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6a985d98-0c40-4d8b-beeb-5f6989c68330",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c1f0ce5b-b822-41dd-94e2-11ec1fd050a0",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ef800652-6289-450c-93da-ec40d1b06a68",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"602b7020-a39e-449f-84db-fd54c4028b47",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_science_computer_password_draw","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_science_computer_password_draw",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -49,16 +45,16 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 5.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d0d943ab-6978-42b5-b483-c3dc60ead9c4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b34a465e-d1dd-4201-81cb-ca90751ed6cd","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"52df6da6-c654-4cbc-a3bc-13f285276399","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a985d98-0c40-4d8b-beeb-5f6989c68330","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"5b3ce9a0-7815-4bb8-bea1-3beecfadfab8","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c1f0ce5b-b822-41dd-94e2-11ec1fd050a0","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"8702080d-6879-479f-b66a-3e8b3424b4a1","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ef800652-6289-450c-93da-ec40d1b06a68","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"7f811f7d-4753-4946-9976-fcf1f8a99c85","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"602b7020-a39e-449f-84db-fd54c4028b47","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"d0d943ab-6978-42b5-b483-c3dc60ead9c4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b34a465e-d1dd-4201-81cb-ca90751ed6cd","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"52df6da6-c654-4cbc-a3bc-13f285276399","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a985d98-0c40-4d8b-beeb-5f6989c68330","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5b3ce9a0-7815-4bb8-bea1-3beecfadfab8","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c1f0ce5b-b822-41dd-94e2-11ec1fd050a0","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8702080d-6879-479f-b66a-3e8b3424b4a1","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ef800652-6289-450c-93da-ec40d1b06a68","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7f811f7d-4753-4946-9976-fcf1f8a99c85","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"602b7020-a39e-449f-84db-fd54c4028b47","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +70,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_science_computer_password_draw","path":"sprites/spr_science_computer_password_draw/spr_science_computer_password_draw.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_science_computer_password_draw",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bde4bf54-ff95-47ef-b43f-1e2575b21f84","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bde4bf54-ff95-47ef-b43f-1e2575b21f84","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Science",
     "path": "folders/Sprites/Science.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_science_computer_password_draw",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

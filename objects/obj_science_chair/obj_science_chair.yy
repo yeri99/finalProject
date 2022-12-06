@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_science_chair",
   "spriteId": {
     "name": "spr_science_chair",
     "path": "sprites/spr_science_chair/spr_science_chair.yy",
@@ -28,8 +31,4 @@
     "name": "Science",
     "path": "folders/Objects/Science.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_science_chair",
-  "tags": [],
-  "resourceType": "GMObject",
 }
