@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_locker",
   "spriteId": {
     "name": "spr_class_locker",
     "path": "sprites/spr_class_locker/spr_class_locker.yy",
@@ -28,8 +31,4 @@
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_locker",
-  "tags": [],
-  "resourceType": "GMObject",
 }

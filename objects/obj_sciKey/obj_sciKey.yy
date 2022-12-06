@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_sciKey",
   "spriteId": {
     "name": "spr_sciKey",
     "path": "sprites/spr_sciKey/spr_sciKey.yy",
@@ -28,8 +31,4 @@
     "name": "TeacherObjects",
     "path": "folders/Objects/TeacherObjects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_sciKey",
-  "tags": [],
-  "resourceType": "GMObject",
 }

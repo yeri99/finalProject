@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_science_desk",
   "spriteId": {
     "name": "spr_Science_Desk",
     "path": "sprites/spr_Science_Desk/spr_Science_Desk.yy",
@@ -28,8 +31,4 @@
     "name": "Science",
     "path": "folders/Objects/Science.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_science_desk",
-  "tags": [],
-  "resourceType": "GMObject",
 }

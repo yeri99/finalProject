@@ -1,10 +1,13 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_science_computer2",
   "spriteId": {
     "name": "spr_science_computer2",
     "path": "sprites/spr_science_computer2/spr_science_computer2.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -21,15 +24,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Science",
     "path": "folders/Objects/Science.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_science_computer2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

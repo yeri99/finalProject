@@ -19,4 +19,4 @@ global.IsSscissor = false
 global.IsBandage = false
 global.IsMediGame = false
 
-room_goto(room_medical)
+room_goto(room_ground)

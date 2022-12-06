@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_curtain",
   "spriteId": {
     "name": "spr_class_curtain",
     "path": "sprites/spr_class_curtain/spr_class_curtain.yy",
@@ -28,8 +31,4 @@
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_curtain",
-  "tags": [],
-  "resourceType": "GMObject",
 }

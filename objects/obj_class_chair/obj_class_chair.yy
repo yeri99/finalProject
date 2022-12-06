@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_chair",
   "spriteId": {
     "name": "spr_class_Chair",
     "path": "sprites/spr_class_Chair/spr_class_Chair.yy",
@@ -28,8 +31,4 @@
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_chair",
-  "tags": [],
-  "resourceType": "GMObject",
 }

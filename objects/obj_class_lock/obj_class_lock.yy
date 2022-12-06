@@ -1,10 +1,13 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_lock",
   "spriteId": {
     "name": "spr_lock",
     "path": "sprites/spr_lock/spr_lock.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -21,15 +24,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_lock",
-  "tags": [],
-  "resourceType": "GMObject",
 }

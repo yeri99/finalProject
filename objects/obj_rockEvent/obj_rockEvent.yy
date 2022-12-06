@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_rockEvent",
   "spriteId": {
     "name": "spr_collision",
     "path": "sprites/spr_collision/spr_collision.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_user","path":"objects/obj_user/obj_user.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_user","path":"objects/obj_user/obj_user.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "ToiletObjects",
     "path": "folders/Objects/ToiletObjects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_rockEvent",
-  "tags": [],
-  "resourceType": "GMObject",
 }

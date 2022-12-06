@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_Desk",
   "spriteId": {
     "name": "spr_class_Desk",
     "path": "sprites/spr_class_Desk/spr_class_Desk.yy",
@@ -28,8 +31,4 @@
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_Desk",
-  "tags": [],
-  "resourceType": "GMObject",
 }

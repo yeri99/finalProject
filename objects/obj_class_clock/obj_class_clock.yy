@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_clock",
   "spriteId": {
     "name": "spr_class_clock",
     "path": "sprites/spr_class_clock/spr_class_clock.yy",
@@ -28,8 +31,4 @@
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_clock",
-  "tags": [],
-  "resourceType": "GMObject",
 }

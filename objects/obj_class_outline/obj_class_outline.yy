@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_class_outline",
   "spriteId": {
     "name": "spr_outline",
     "path": "sprites/spr_outline/spr_outline.yy",
@@ -28,8 +31,4 @@
     "name": "Class",
     "path": "folders/Objects/Class.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_class_outline",
-  "tags": [],
-  "resourceType": "GMObject",
 }
