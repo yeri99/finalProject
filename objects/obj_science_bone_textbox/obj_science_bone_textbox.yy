@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_science_bone_textbox",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_scriptBox",
+    "path": "sprites/spr_scriptBox/spr_scriptBox.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_twinkle_1",
+  "name": "obj_twinkle_1_1",
   "spriteId": null,
   "solid": false,
   "visible": true,

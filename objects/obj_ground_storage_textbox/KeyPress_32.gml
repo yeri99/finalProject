@@ -8,6 +8,7 @@ if(obj_ground_event.IsGroundKey == true){
 }
 else
 {
+	obj_ground_event.IsStorage = false
 	instance_destroy(self)
 }
 
