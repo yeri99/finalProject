@@ -14,7 +14,7 @@ if(instance_exists(obj_mediGame)){
 		}	
 	}
 	else if(mediCheck == 3){
-		if(obj_medicalEvent.isMediGame&& global.IsMediGame){
+		if(obj_medicalEvent.isMediGame && global.IsMediGame){
 			instance_destroy(obj_approx)
 			instance_destroy(obj_approx2)
 			instance_destroy(obj_bandage)

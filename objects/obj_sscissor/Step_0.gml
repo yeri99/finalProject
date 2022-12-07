@@ -17,31 +17,73 @@ if(place_meeting(x, y, obj_mediGame)){
 if(!instance_exists(obj_mediGame)){
 	x = x_
 	y = y_
+
+	moveX_ = x
+	moveY_ = y
+	
 	image_xscale = 0.8
 	image_yscale = 0.8
 }
 else{
-if(instance_position(room_width/2 - 133,room_height/2,obj_sscissor)){
-	x = room_width/2 - 133
-	y = room_height/2
-	if(obj_mediGameEvent.isSscissor == false){
-		obj_mediGameEvent.isSscissor = true
-		obj_mediGameEvent.isCheck++
+	if(instance_position(room_width/2 - 133,room_height/2,obj_sscissor)){
+		x = room_width/2 - 133
+		y = room_height/2
+		
+		if(!obj_medicalEvent.isChanged &&!place_meeting(x,y,obj_approx) && !place_meeting(x,y,obj_approx2) && !place_meeting(x,y,obj_bandage)){
+			moveX_ = x
+			moveY_ = y
+		}
+		if(!obj_mediGameEvent.isSscissor){
+			obj_mediGameEvent.isSscissor = true
+			obj_mediGameEvent.isCheck++
+		}
 	}
-}
 
-if(instance_position(room_width/2+133,room_height/2-133,obj_sscissor)){
-	x = room_width/2 + 133
-	y = room_height/2 - 133
-}
+	if(instance_position(room_width/2+133,room_height/2-133,obj_sscissor)){
+		x = room_width/2 + 133
+		y = room_height/2 - 133
+		
+		if(!obj_medicalEvent.isChanged &&!place_meeting(x,y,obj_approx) && !place_meeting(x,y,obj_approx2) && !place_meeting(x,y,obj_bandage)){
+			moveX_ = x
+			moveY_ = y
+		}
+		if(obj_mediGameEvent.isSscissor){
+			obj_mediGameEvent.isSscissor = false
+			obj_mediGameEvent.isCheck--
+		}
+	}
 
-else if(instance_position(room_width/2,room_height/2 + 133,obj_sscissor)){
-	x = room_width/2
-	y = room_height/2 + 133
-} 
+	else if(instance_position(room_width/2,room_height/2 + 133,obj_sscissor)){
+		x = room_width/2
+		y = room_height/2 + 133
+		
+		if(!obj_medicalEvent.isChanged &&!place_meeting(x,y,obj_approx) && !place_meeting(x,y,obj_approx2) && !place_meeting(x,y,obj_bandage)){
+			moveX_ = x
+			moveY_ = y
+		}
+		if(obj_mediGameEvent.isSscissor){
+			obj_mediGameEvent.isSscissor = false
+			obj_mediGameEvent.isCheck--
+		}
+	} 
 
-else if(instance_position(room_width/2,room_height/2,obj_sscissor)){
-	x = room_width/2
-	y = room_height/2
-}
+	else if(instance_position(room_width/2,room_height/2,obj_sscissor)){
+		x = room_width/2 
+		y = room_height/2
+		
+		if(!obj_medicalEvent.isChanged &&!place_meeting(x,y,obj_approx) && !place_meeting(x,y,obj_approx2) && !place_meeting(x,y,obj_bandage)){
+			moveX_ = x
+			moveY_ = y
+		}
+		if(obj_mediGameEvent.isSscissor){
+			obj_mediGameEvent.isSscissor = false
+			obj_mediGameEvent.isCheck--
+		}
+	}
+	else if(place_meeting(x,y,obj_itemBox)){
+		if(obj_mediGameEvent.isSscissor){
+			obj_mediGameEvent.isSscissor = false
+			obj_mediGameEvent.isCheck--
+		}
+	}
 }

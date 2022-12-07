@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MediObjects",
-    "path": "folders/Objects/MediObjects.yy",
+    "name": "obj_medi",
+    "path": "folders/Objects/MediObjects/obj_medi.yy",
   },
 }

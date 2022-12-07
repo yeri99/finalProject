@@ -7,3 +7,5 @@ global.IsText = false
 isMediGame = false
 mediCheck = 0
 isBandage = false
+
+isChanged = false

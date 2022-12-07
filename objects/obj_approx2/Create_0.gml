@@ -9,5 +9,10 @@ if(global.IsApprox2 == true){
 
 
 isPress = false
+isMe = false
+
 x_ = x
 y_ = y
+
+moveX_ = x
+moveY_ = y
