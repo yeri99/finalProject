@@ -51,8 +51,9 @@ if(global.canMove == true){
 	
 	}
 
-	if(!place_meeting(x+x_spd,y, obj_collision) and !place_meeting(x+x_spd,y, obj_hallEvent))
+	if(!place_meeting(x+x_spd,y, obj_collision) && !place_meeting(x+x_spd,y, obj_hallEvent))
 		x += x_spd
-	if(!place_meeting(x,y+y_spd, obj_collision) and !place_meeting(x,y+y_spd, obj_hallEvent))
+	if(!place_meeting(x,y+y_spd, obj_collision) && !place_meeting(x,y+y_spd, obj_hallEvent) )
 		y += y_spd
+	
 }
