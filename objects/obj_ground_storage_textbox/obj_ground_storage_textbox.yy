@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_ground_storage_textbox",
   "spriteId": {
-    "name": "spr_scriptBox",
-    "path": "sprites/spr_scriptBox/spr_scriptBox.yy",
+    "name": "spr_scriptBox_3",
+    "path": "sprites/spr_scriptBox_3/spr_scriptBox_3.yy",
   },
   "solid": false,
   "visible": true,

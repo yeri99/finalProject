@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_ground_stage_textbox",
   "spriteId": {
-    "name": "spr_scriptBox",
-    "path": "sprites/spr_scriptBox/spr_scriptBox.yy",
+    "name": "spr_scriptBox_2",
+    "path": "sprites/spr_scriptBox_2/spr_scriptBox_2.yy",
   },
   "solid": false,
   "visible": true,

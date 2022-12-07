@@ -14,3 +14,8 @@ if(obj_ground_event.IsGroundKey == false)
 {
 	self.visible = false;	
 }
+else
+{
+	self.visible = true;	
+}
+

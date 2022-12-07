@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_science_puzzle4_check",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_collision",
+    "path": "sprites/spr_collision/spr_collision.yy",
+  },
   "solid": false,
   "visible": false,
   "managed": true,

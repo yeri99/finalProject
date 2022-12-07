@@ -4,4 +4,3 @@ room_goto(room_hallway)
 
 
 
-
