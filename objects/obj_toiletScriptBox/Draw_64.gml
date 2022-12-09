@@ -6,6 +6,7 @@ draw_set_font(Font1)
 if(obj_toiletEvent.IsRock == true){
 	draw_text(100, 600, textRock)
 }
+<<<<<<< HEAD
 else if(obj_toiletEvent.IsMiniGame == true){
 	draw_text(100, 600, textMiniGame)
 }
@@ -18,4 +19,6 @@ else if(instance_exists(obj_toiletPicture) and obj_toiletEvent.IsPicGet == false
 else if(obj_toiletEvent.IsPicGet == true){
 	draw_text(100, 600, textMiniGameAfter)
 }
+=======
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
 

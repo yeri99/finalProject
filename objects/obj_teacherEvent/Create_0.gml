@@ -7,6 +7,7 @@ IsCabinet = false
 IsAtten = false
 IsPam = false
 IsKeyEvent = 1
+<<<<<<< HEAD
 IsPamEvent = 1
 
 global.hallway1f = false
@@ -45,3 +46,6 @@ ini_open("Settings/save.ini")
 ini_key_delete("location", "0")
 ini_write_real("location", "0", room_teacher)
 ini_close()
+=======
+IsPamEvent = 1
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe

@@ -7,7 +7,11 @@
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
+<<<<<<< HEAD
   "persistent": true,
+=======
+  "persistent": false,
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,

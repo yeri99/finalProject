@@ -6,5 +6,11 @@ y_spd = 0
 
 delay=0
 
+<<<<<<< HEAD
 global.canMove = false
 alarm[1] = 20
+=======
+
+
+
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe

@@ -1,5 +1,6 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
+<<<<<<< HEAD
 x_move = camera_get_view_x(view_camera[0])+(1344/2)
 obj_itemListBox.x = x_move
 for(i=0; i<array_length(global.itemList); i++){
@@ -24,3 +25,10 @@ if(obj_user.y- 48 < 260){
 	else if(3220 < obj_user.x)
 		room_goto(room_hallway2f)
 }
+=======
+
+//if(obj_door.image_index==1){
+if(obj_user.y- 48 < 260){
+	room_goto(room_class)
+}
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe

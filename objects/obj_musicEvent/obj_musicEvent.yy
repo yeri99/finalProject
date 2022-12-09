@@ -21,6 +21,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
+<<<<<<< HEAD
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
@@ -29,5 +30,13 @@
   "parent": {
     "name": "MusicObjects",
     "path": "folders/Objects/MusicObjects.yy",
+=======
+  "eventList": [],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Event",
+    "path": "folders/Objects/art_room/Event.yy",
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
   },
 }

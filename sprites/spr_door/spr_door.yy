@@ -17,6 +17,10 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+<<<<<<< HEAD
+=======
+  "DynamicTexturePage": false,
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
   "width": 120,
   "height": 176,
   "textureGroupId": {
@@ -69,7 +73,12 @@
   ],
   "nineSlice": null,
   "parent": {
+<<<<<<< HEAD
     "name": "HallSprites",
     "path": "folders/Sprites/HallSprites.yy",
+=======
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
   },
 }

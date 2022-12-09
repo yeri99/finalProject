@@ -1,10 +1,17 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
 
+<<<<<<< HEAD
 global.itemNum = 0
 global.canMove = true
 global.gameStart = true
 
+=======
+global.IsText = false
+
+global.itemNum = 0
+global.canMove = true
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
 global.isSpaceCheck = 0
 global.isSeconds =false 
 
@@ -21,6 +28,7 @@ global.IsSscissor = false
 global.IsBandage = false
 global.IsMediGame = false
 
+<<<<<<< HEAD
 room_goto(room_start)
 
 //moveEvent
@@ -40,3 +48,6 @@ global.hallway3f = false
 
 //wholeItem
 global.itemList = []
+=======
+room_goto(room_class2)
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe

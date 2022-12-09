@@ -3,4 +3,8 @@
 image_xscale = 0.1
 image_yscale = 0.1
 
+<<<<<<< HEAD
 isPress = false
+=======
+
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe

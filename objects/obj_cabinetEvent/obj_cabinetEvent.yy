@@ -1,7 +1,10 @@
 {
+<<<<<<< HEAD
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_cabinetEvent",
+=======
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
   "spriteId": {
     "name": "spr_collision",
     "path": "sprites/spr_collision/spr_collision.yy",
@@ -25,8 +28,13 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+<<<<<<< HEAD
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_user","path":"objects/obj_user/obj_user.yy",},},
+=======
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_user","path":"objects/obj_user/obj_user.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,4 +42,11 @@
     "name": "TeacherObjects",
     "path": "folders/Objects/TeacherObjects.yy",
   },
+<<<<<<< HEAD
+=======
+  "resourceVersion": "1.0",
+  "name": "obj_cabinetEvent",
+  "tags": [],
+  "resourceType": "GMObject",
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
 }

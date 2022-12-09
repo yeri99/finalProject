@@ -1,7 +1,10 @@
 {
+<<<<<<< HEAD
   "resourceType": "GMMacOptions",
   "resourceVersion": "1.0",
   "name": "macOS",
+=======
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
   "option_mac_display_name": "Created with GameMaker",
   "option_mac_app_id": "com.company.game",
   "option_mac_version": "1.0.0.0",
@@ -31,4 +34,11 @@
   "option_mac_x86_64": true,
   "option_mac_arm64": true,
   "option_mac_apple_sign_in": false,
+<<<<<<< HEAD
+=======
+  "resourceVersion": "1.0",
+  "name": "macOS",
+  "tags": [],
+  "resourceType": "GMMacOptions",
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
 }

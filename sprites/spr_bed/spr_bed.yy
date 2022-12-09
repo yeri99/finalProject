@@ -17,6 +17,10 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+<<<<<<< HEAD
+=======
+  "DynamicTexturePage": false,
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
   "width": 96,
   "height": 80,
   "textureGroupId": {
@@ -68,7 +72,12 @@
   ],
   "nineSlice": null,
   "parent": {
+<<<<<<< HEAD
     "name": "Sprites",
     "path": "folders/Sprites.yy",
+=======
+    "name": "Medical",
+    "path": "folders/Sprites/Medical.yy",
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
   },
 }

@@ -1,7 +1,10 @@
 {
+<<<<<<< HEAD
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_bathWall",
+=======
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
   "spriteId": {
     "name": "spr_bathWall",
     "path": "sprites/spr_bathWall/spr_bathWall.yy",
@@ -31,4 +34,11 @@
     "name": "ToiletObjects",
     "path": "folders/Objects/ToiletObjects.yy",
   },
+<<<<<<< HEAD
+=======
+  "resourceVersion": "1.0",
+  "name": "obj_bathWall",
+  "tags": [],
+  "resourceType": "GMObject",
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
 }

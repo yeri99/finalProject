@@ -1,7 +1,10 @@
 {
+<<<<<<< HEAD
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_cabinet",
+=======
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
   "spriteId": {
     "name": "spr_cabinet",
     "path": "sprites/spr_cabinet/spr_cabinet.yy",
@@ -31,4 +34,11 @@
     "name": "TeacherObjects",
     "path": "folders/Objects/TeacherObjects.yy",
   },
+<<<<<<< HEAD
+=======
+  "resourceVersion": "1.0",
+  "name": "obj_cabinet",
+  "tags": [],
+  "resourceType": "GMObject",
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
 }

@@ -3,7 +3,12 @@
 
 
 
+<<<<<<< HEAD
 if(obj_user.y > 627){
 	global.userX = obj_user.x
 	room_goto(room_hallway)
 }
+=======
+if(obj_user.y > 627)
+	room_goto(room_hallway)
+>>>>>>> 822a5f657bcfc65bcd515fef54c6c6c0a2c3e1fe
