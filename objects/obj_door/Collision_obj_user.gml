@@ -3,28 +3,28 @@
 if(keyboard_check_pressed(vk_space)){
 	if(self.image_index == 0){
 		self.image_index = 1;
-		if(obj_classBackDoorEvent.x - 48 < obj_user.x and obj_user.x < obj_classFrontDoorEvent.x)
+		if(obj_classBackDoorEvent.x - 48 < obj_user.x and obj_user.x < 600)
 			obj_classBackDoorEvent.y -= 54
-		else if(obj_classFrontDoorEvent.x - 48 < obj_user.x and obj_user.x < obj_teacherBackDoorEvent.x)
+		else if(600 < obj_user.x and obj_user.x < 1070)
 			obj_classFrontDoorEvent.y -= 54
-		else if(obj_teacherBackDoorEvent.x - 48 < obj_user.x and obj_user.x < obj_teacherFrontDoorEvent.x)
+		else if(1070 < obj_user.x and obj_user.x < 1500)
 			obj_teacherBackDoorEvent.y -= 54
-		else if(obj_teacherFrontDoorEvent.x - 48 < obj_user.x and obj_user.x < obj_medicalDoorEvent.x)
+		else if(1500 < obj_user.x and obj_user.x < 2080)
 			obj_teacherFrontDoorEvent.y -= 54
-		else if(obj_medicalDoorEvent.x - 48 < obj_user.x)
+		else if(2080 < obj_user.x)
 			obj_medicalDoorEvent.y -= 54
 	}
 	else if(self.image_index==1){
 		self.image_index = 0;
-		if(obj_classBackDoorEvent.x < obj_hallEvent.x and obj_user.x < obj_classFrontDoorEvent.x)
+		if(obj_classBackDoorEvent.x < obj_user.x and obj_user.x < 600)
 			obj_classBackDoorEvent.y += 54;
-		else if(obj_classFrontDoorEvent.x < obj_user.x and obj_user.x < obj_teacherBackDoorEvent.x)
+		else if(600 < obj_user.x and obj_user.x < 1070)
 			obj_classFrontDoorEvent.y += 54
-		else if(obj_teacherBackDoorEvent.x < obj_user.x and obj_user.x < obj_teacherFrontDoorEvent.x)
+		else if(1070 < obj_user.x and obj_user.x < 1500)
 			obj_teacherBackDoorEvent.y += 54
-		else if(obj_teacherFrontDoorEvent.x < obj_user.x and obj_user.x < obj_medicalDoorEvent.x)
+		else if(1500 < obj_user.x and obj_user.x < 2080)
 			obj_teacherFrontDoorEvent.y += 54
-		else if(obj_medicalDoorEvent.x < obj_user.x)
+		else if(2080 < obj_user.x)
 			obj_medicalDoorEvent.y += 54
 	}
 }
