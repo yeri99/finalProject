@@ -2,7 +2,7 @@
 // 이 에디터에 코드를 작성할 수 있습니다
 instance_create_depth(382+global.itemNum*64, 736, 0, obj_sciKey)
 global.itemNum++
-global.scienceRoomKeyItem = 1
+//global.scienceRoomKeyItem = 1
 instance_destroy(obj_twinkle)
 instance_destroy(obj_sciKeyEvent)
 

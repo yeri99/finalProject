@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_rockItem",
   "spriteId": {
-    "name": "spr_rock_2",
-    "path": "sprites/spr_rock_2/spr_rock_2.yy",
+    "name": "spr_rock",
+    "path": "sprites/spr_rock/spr_rock.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,6 +29,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

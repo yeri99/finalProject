@@ -21,7 +21,7 @@ if(global.gameStart == false){
 		obj_user.y = 596
 	}
 }
-for(i=0; i<array_length(global.itemList); i++){
+for(i=0; i<global.itemNum; i++){
 	instance_create_depth(382+i*64, 736, 0, global.itemList[i])
 }
 if(instance_exists(obj_sciKey)){
@@ -42,6 +42,5 @@ if(instance_exists(obj_pamflet)){
 }
 
 ini_open("Settings/save.ini")
-ini_key_delete("location", "0")
 ini_write_real("location", "0", room_teacher)
 ini_close()

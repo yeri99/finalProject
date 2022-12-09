@@ -8,12 +8,13 @@ if(place_meeting(x, y, obj_rockInToiletEvent)){
 	obj_toiletEvent.IsMiniGame = false
 	obj_toiletEvent.IsRockInToilet = true
 	instance_destroy(obj_toiletMiniGame)
+	
 	global.itemNum--
 	instance_destroy(self)
 }
 else{
-	x = 478+(global.itemNum-1)*64
-	y = 720
+	x = x_
+	y = y_
 }
 
 instance_destroy(obj_rock)

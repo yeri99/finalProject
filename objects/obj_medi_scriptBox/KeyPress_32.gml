@@ -12,6 +12,7 @@ if(global.IsApprox1 == true){
 	
 	instance_create_depth((room_width/2 -288)+global.itemNum*64, room_height - 32, 0, obj_approx)
 	global.itemNum++
+	global.itemList[global.itemNum-1] = obj_approx
 	global.IsApprox1 = false
 }
 if(global.IsApprox2 == true){
@@ -20,6 +21,7 @@ if(global.IsApprox2 == true){
 	
 	instance_create_depth((room_width/2 -288)+global.itemNum*64, room_height - 32, 0, obj_approx2)
 	global.itemNum++
+	global.itemList[global.itemNum-1] = obj_approx2
 	global.IsApprox2 = false
 }
 if(global.IsSscissor == true){
@@ -28,6 +30,7 @@ if(global.IsSscissor == true){
 	
 	instance_create_depth((room_width/2 -288)+global.itemNum*64, room_height - 32, 0, obj_sscissor)
 	global.itemNum++
+	global.itemList[global.itemNum-1] = obj_sscissor
 	global.IsSscissor = false
 }
 if(global.IsBandage == true){
@@ -37,6 +40,7 @@ if(global.IsBandage == true){
 	
 	instance_create_depth((room_width/2 -288)+global.itemNum*64, room_height - 32, 0, obj_bandage)
 	global.itemNum++
+	global.itemList[global.itemNum-1] = obj_bandage
 	global.IsBandage = false
 }
 

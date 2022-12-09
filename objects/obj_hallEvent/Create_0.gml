@@ -44,7 +44,7 @@ if(global.gameStart == false){
 x_ = camera_get_view_x(view_camera[0])+(1344/2)
 y_ = camera_get_view_y(view_camera[0])+(768-32)
 
-for(i=0; i<array_length(global.itemList); i++){
+for(i=0; i<global.itemNum; i++){
 	instance_create_depth((x_-288)+i*64, 736, -1, global.itemList[i])
 }
 instance_create_depth(x_, y_, 0, obj_itemListBox)

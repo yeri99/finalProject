@@ -2,7 +2,7 @@
 // 이 에디터에 코드를 작성할 수 있습니다
 x_move = camera_get_view_x(view_camera[0])+(1344/2)
 obj_itemListBox.x = x_move
-for(i=0; i<array_length(global.itemList); i++){
+for(i=0; i<global.itemNum; i++){
 	global.itemList[i].x = (x_move-288)+i*64
 }
 //if(obj_door.image_index==1){

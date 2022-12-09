@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_rock",
   "spriteId": {
-    "name": "spr_rock_1",
-    "path": "sprites/spr_rock_1/spr_rock_1.yy",
+    "name": "spr_rock",
+    "path": "sprites/spr_rock/spr_rock.yy",
   },
   "solid": false,
   "visible": true,

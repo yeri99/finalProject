@@ -4,6 +4,7 @@
 ini_open("Settings/save.ini")
 ini_section_delete("item")
 ini_section_delete("location")
+ini_section_delete("game")
 global.userX = 320
 global.userY = 382
 ini_close()

@@ -8,8 +8,11 @@ if(obj_toiletEvent.IsRock == true){
 	instance_destroy(obj_rockEvent)
 	instance_destroy(obj_itemBackground)
 	obj_handstand.image_index=1
-	instance_create_depth(478+global.itemNum*64, 720, 0, obj_rockItem)
+	instance_create_depth(382+global.itemNum*64, 736, 0, obj_rockItem)
+	
 	global.itemNum++
+	global.itemList[global.itemNum-1] = obj_rockItem
+	
 	global.canMove=true
 }
 if(obj_toiletEvent.IsPicGet == true){

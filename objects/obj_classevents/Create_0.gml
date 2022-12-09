@@ -24,3 +24,7 @@ if(global.gameStart == false){
 for(i=0; i<array_length(global.itemList); i++){
 	instance_create_depth(382+i*64, 736, -1, global.itemList[i])
 }
+
+ini_open("Settings/save.ini")
+ini_write_real("location", "0", room_bathroom)
+ini_close()

@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_collision_2",
+  "name": "obj_itemBackground",
   "spriteId": {
-    "name": "spr_collision_1",
-    "path": "sprites/spr_collision_1/spr_collision_1.yy",
+    "name": "spr_itemBackground",
+    "path": "sprites/spr_itemBackground/spr_itemBackground.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

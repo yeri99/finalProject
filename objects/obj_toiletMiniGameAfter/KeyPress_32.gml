@@ -9,5 +9,8 @@ obj_itemBackground.image_xscale = 0.8
 obj_toiletEvent.IsRockInToilet = false
 
 instance_create_depth(683, 640, -1, obj_toiletScriptBox)
+ini_open("Settings/save.ini")
+ini_write_real("game", "toiletEvent", 2)
+ini_close()
 
 instance_destroy(self)
