@@ -21,4 +21,4 @@ global.IsSscissor = false
 global.IsBandage = false
 global.IsMediGame = false
 
-room_goto(room_class2)
+room_goto(room_trash)

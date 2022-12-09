@@ -5,4 +5,4 @@
 
 
 isCat = false
-isMeetCat = false
+isCatGameOn = false

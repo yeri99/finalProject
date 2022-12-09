@@ -7,3 +7,7 @@
 image_speed = 0
 
 isPress = false
+image_xscale = 4
+image_yscale = 4
+
+obj_trashEvent.isCatGameOn = true

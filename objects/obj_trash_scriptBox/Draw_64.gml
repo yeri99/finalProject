@@ -3,3 +3,7 @@
 
 draw_set_font(Font1)
 
+if( instance_exists(obj_class_locker_eat) && obj_catCollision.isPress){
+	draw_text(100,600,textCatNot)
+	instance_create_depth(room_width/2, room_height/2, depth, obj_catGame)
+}
