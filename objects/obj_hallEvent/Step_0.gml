@@ -21,6 +21,8 @@ if(obj_user.y- 48 < 260){
 		room_goto(room_medical)
 	else if(2800 < obj_user.x and obj_user.x < 3000)
 		room_goto(room_bathroom)
+	else if(3000 < obj_user.x and obj_user.x < 3220)
+		room_goto(room_storage)
 	else if(3220 < obj_user.x)
-		room_goto(room_hallway2f)
+		room_goto(room_loading)
 }

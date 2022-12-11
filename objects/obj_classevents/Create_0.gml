@@ -26,5 +26,5 @@ for(i=0; i<array_length(global.itemList); i++){
 }
 
 ini_open("Settings/save.ini")
-ini_write_real("location", "0", room_bathroom)
+ini_write_real("location", "0", room_class2)
 ini_close()

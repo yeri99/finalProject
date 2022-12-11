@@ -6,5 +6,5 @@ if(obj_user.y- 48 < 260){
 	global.userX = obj_user.x
 	global.userY = obj_user.y
 	if(3000 < obj_user.x and obj_user.x < 3230)
-		room_goto(room_hallway)
+		room_goto(room_loading)
 }
